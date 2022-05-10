@@ -1,4 +1,5 @@
 // Dia da semana ou fim de semana, alta ou baixa temporada - de acordo com o numero da semana digitado (1-7)
+// pode rodar no gdb para testar https://www.onlinegdb.com/online_c_compiler
 
 #include <stdio.h>
 int main ()
@@ -75,7 +76,8 @@ int main ()
         
       default:
       printf("Mês inválido. \n");
-}}
+}
+}
         
         
         
