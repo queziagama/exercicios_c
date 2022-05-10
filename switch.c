@@ -3,10 +3,11 @@
 #include <stdio.h>
 int main ()
 {   int dia;
-    printf ("");
+    printf ("Informe o dia: ");
     scanf ("%d", &dia); // lê o print, %d o que é digitado
 
     switch(dia)
+{
     case 1: // domingo
     printf("fim de semana. \n");
     break;
@@ -39,7 +40,7 @@ int main ()
     printf ("Dia inválido. \n");
 }
 
-    int mês;
+    int mes;
     printf ("Informe o mês: ");
     scanf("%d" , &mes);
 
@@ -74,6 +75,7 @@ int main ()
         
       default:
       printf("Mês inválido. \n");
-}
+}}
+        
         
         
